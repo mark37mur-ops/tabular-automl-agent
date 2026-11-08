@@ -1,0 +1,31 @@
+{
+  "id": "2026-10-20_v2_79d1218_rules",
+  "datetime": "2026-10-20T17:53",
+  "date": "2026-10-20",
+  "approach": "v2",
+  "branch": "feature/agent-v2",
+  "commit": "79d1218",
+  "llm": null,
+  "time_limit_sec": 1800,
+  "notes": "v2 после ревью: охранник, случайный поиск параметров, доп. сиды.",
+  "tasks": {
+    "amazon_access": {
+      "metric": "roc_auc",
+      "value": 0.88704,
+      "score": 76.43,
+      "seconds": 904.6
+    },
+    "bike_sharing": {
+      "metric": "rmsle",
+      "value": 0.27907,
+      "score": 78.55,
+      "seconds": 483.2
+    },
+    "home_credit": {
+      "metric": "roc_auc",
+      "value": 0.74694,
+      "score": 6.34,
+      "seconds": 1408.2
+    }
+  }
+}

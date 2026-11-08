@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-21_v4_31ecfcb_rules_20m_scr1_dev1_cmp1_his1_lsh1_1756",
+  "datetime": "2026-10-21T17:56",
+  "date": "2026-10-21",
+  "approach": "v4",
+  "branch": "feature/agent-v4",
+  "commit": "31ecfcb",
+  "llm": null,
+  "time_limit_sec": 1200.0,
+  "toggles": {
+    "AGENT_SCREEN": 1,
+    "AGENT_DEVELOPER": 1,
+    "AGENT_COMPONENTS": 1,
+    "AGENT_HISTORY": 1,
+    "AGENT_LABEL_SHIFT": 1
+  },
+  "settings": {},
+  "notes": "v4 без LLM: повтор amazon (первый прогон испорчен сном ноутбука).",
+  "tasks": {
+    "amazon_access": {
+      "metric": "roc_auc",
+      "value": 0.88293,
+      "score": 75.57,
+      "seconds": 589.9
+    }
+  }
+}

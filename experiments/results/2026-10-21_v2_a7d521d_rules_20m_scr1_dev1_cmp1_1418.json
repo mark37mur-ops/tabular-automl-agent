@@ -1,0 +1,31 @@
+{
+  "id": "2026-10-21_v2_a7d521d_rules_20m_scr1_dev1_cmp1_1418",
+  "datetime": "2026-10-21T14:18",
+  "date": "2026-10-21",
+  "approach": "v2",
+  "branch": "feature/agent-v2",
+  "commit": "a7d521d",
+  "llm": null,
+  "time_limit_sec": 1200.0,
+  "toggles": {
+    "AGENT_SCREEN": 1,
+    "AGENT_DEVELOPER": 1,
+    "AGENT_COMPONENTS": 1
+  },
+  "settings": {},
+  "notes": "v2 (сдано, 19 баллов) на задачах-ловушках.",
+  "tasks": {
+    "wids_future": {
+      "metric": "rmse",
+      "value": 60.14432,
+      "score": 0.0,
+      "seconds": 969.7
+    },
+    "unsw_shift": {
+      "metric": "macro_f1",
+      "value": 0.61201,
+      "score": 35.33,
+      "seconds": 981.3
+    }
+  }
+}

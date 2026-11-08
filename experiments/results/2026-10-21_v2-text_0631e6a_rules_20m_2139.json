@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-21_v2-text_0631e6a_rules_20m_2139",
+  "datetime": "2026-10-21T21:39",
+  "date": "2026-10-21",
+  "approach": "v2-text",
+  "branch": "feature/pavel-v2-robustness",
+  "commit": "0631e6a",
+  "llm": null,
+  "time_limit_sec": 1200.0,
+  "settings": {},
+  "machine": {
+    "cpu": 4,
+    "os": "Windows"
+  },
+  "polygon": "3437492",
+  "notes": "v2 + URL, свободный текст и даты не становятся категориями (url -> дата публикации и части адреса). Без LLM, 4 CPU; сравнивать с v2 a7d521d от 21.10 20:52 на той же машине.",
+  "tasks": {
+    "news_shares": {
+      "metric": "mae",
+      "value": 2353.08301,
+      "score": 23.73,
+      "seconds": 609.3
+    }
+  }
+}

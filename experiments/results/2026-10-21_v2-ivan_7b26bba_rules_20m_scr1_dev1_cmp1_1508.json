@@ -1,0 +1,49 @@
+{
+  "id": "2026-10-21_v2-ivan_7b26bba_rules_20m_scr1_dev1_cmp1_1508",
+  "datetime": "2026-10-21T15:08",
+  "date": "2026-10-21",
+  "approach": "v2-ivan",
+  "branch": "codex/agent-model-improvements",
+  "commit": "7b26bba",
+  "llm": null,
+  "time_limit_sec": 1200.0,
+  "toggles": {
+    "AGENT_SCREEN": 1,
+    "AGENT_DEVELOPER": 1,
+    "AGENT_COMPONENTS": 1
+  },
+  "settings": {},
+  "notes": "Ветка Ивана: временная валидация, полное переобучение, контракты метрик.",
+  "tasks": {
+    "amazon_access": {
+      "metric": "roc_auc",
+      "value": 0.88293,
+      "score": 75.57,
+      "seconds": 751.2
+    },
+    "bike_sharing": {
+      "metric": "rmsle",
+      "value": 0.27864,
+      "score": 78.58,
+      "seconds": 337.9
+    },
+    "home_credit": {
+      "metric": "roc_auc",
+      "value": 0.74645,
+      "score": 6.16,
+      "seconds": 827.4
+    },
+    "wids_future": {
+      "metric": "rmse",
+      "value": 43.66982,
+      "score": 11.49,
+      "seconds": 218.1
+    },
+    "unsw_shift": {
+      "metric": "macro_f1",
+      "value": 0.61305,
+      "score": 35.5,
+      "seconds": 837.2
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2026-10-21_v3-rd_614778f_rules_20m_scr1_dev1_cmp1_0426",
+  "datetime": "2026-10-21T04:26",
+  "date": "2026-10-21",
+  "approach": "v3-rd",
+  "branch": "feature/agent-v3-rd",
+  "commit": "614778f",
+  "llm": null,
+  "time_limit_sec": 1200.0,
+  "toggles": {
+    "AGENT_SCREEN": 1,
+    "AGENT_DEVELOPER": 1,
+    "AGENT_COMPONENTS": 1
+  },
+  "settings": {},
+  "notes": "v3-rd без LLM: работает только отбор на выборке.",
+  "tasks": {
+    "amazon_access": {
+      "metric": "roc_auc",
+      "value": 0.86597,
+      "score": 72.04,
+      "seconds": 573.9
+    },
+    "bike_sharing": {
+      "metric": "rmsle",
+      "value": 0.27907,
+      "score": 78.55,
+      "seconds": 432.9
+    },
+    "home_credit": {
+      "metric": "roc_auc",
+      "value": 0.74604,
+      "score": 6.01,
+      "seconds": 958.2
+    }
+  }
+}

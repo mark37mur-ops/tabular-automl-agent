@@ -1,0 +1,34 @@
+{
+  "id": "2026-10-22_ivan-holdout-smoke_5f900ca_rules_5m_scr1_dev1_cmp1_his1_lsh0_1448",
+  "datetime": "2026-10-22T14:48",
+  "date": "2026-10-22",
+  "approach": "ivan-holdout-smoke",
+  "branch": "feature/ivan-holdout-clean",
+  "commit": "5f900ca",
+  "llm": null,
+  "time_limit_sec": 300.0,
+  "toggles": {
+    "AGENT_SCREEN": 1,
+    "AGENT_DEVELOPER": 1,
+    "AGENT_COMPONENTS": 1,
+    "AGENT_HISTORY": 1,
+    "AGENT_LABEL_SHIFT": 0
+  },
+  "settings": {
+    "AGENT_N_JOBS": "8",
+    "AGENT_SCREEN": "1",
+    "AGENT_DEVELOPER": "1",
+    "AGENT_COMPONENTS": "1",
+    "AGENT_HISTORY": "1",
+    "AGENT_LABEL_SHIFT": "0"
+  },
+  "notes": "",
+  "tasks": {
+    "wids_seen": {
+      "metric": "rmse",
+      "value": 30.86939,
+      "score": 31.48,
+      "seconds": 131.8
+    }
+  }
+}

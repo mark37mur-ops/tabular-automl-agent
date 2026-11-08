@@ -1,0 +1,32 @@
+{
+  "id": "2026-10-21_v3-rd_7536cb3_llm_20m_scr1_dev1_cmp1_0559",
+  "datetime": "2026-10-21T05:59",
+  "date": "2026-10-21",
+  "approach": "v3-rd",
+  "branch": "feature/agent-v3-rd",
+  "commit": "7536cb3",
+  "llm": "qwen/qwen3.8-27b (Groq)",
+  "time_limit_sec": 1200.0,
+  "toggles": {
+    "AGENT_SCREEN": 1,
+    "AGENT_DEVELOPER": 1,
+    "AGENT_COMPONENTS": 1
+  },
+  "settings": {
+    "AGENT_LLM_MAX_CALLS": "14",
+    "AGENT_LLM_RETRIES": "4",
+    "AGENT_LLM_MIN_INTERVAL_SEC": "20",
+    "AGENT_LLM_SUMMARY_COLS": "60",
+    "AGENT_LLM_MAX_TOKENS": "900",
+    "AGENT_LLM_IDEAS": "3"
+  },
+  "notes": "v3-rd после правки отбора, с Qwen через Groq.",
+  "tasks": {
+    "amazon_access": {
+      "metric": "roc_auc",
+      "value": 0.88324,
+      "score": 75.64,
+      "seconds": 932.5
+    }
+  }
+}

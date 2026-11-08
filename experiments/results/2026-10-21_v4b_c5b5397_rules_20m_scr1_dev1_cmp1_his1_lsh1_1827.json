@@ -1,0 +1,33 @@
+{
+  "id": "2026-10-21_v4b_c5b5397_rules_20m_scr1_dev1_cmp1_his1_lsh1_1827",
+  "datetime": "2026-10-21T18:27",
+  "date": "2026-10-21",
+  "approach": "v4b",
+  "branch": "feature/agent-v4",
+  "commit": "c5b5397",
+  "llm": null,
+  "time_limit_sec": 1200.0,
+  "toggles": {
+    "AGENT_SCREEN": 1,
+    "AGENT_DEVELOPER": 1,
+    "AGENT_COMPONENTS": 1,
+    "AGENT_HISTORY": 1,
+    "AGENT_LABEL_SHIFT": 1
+  },
+  "settings": {},
+  "notes": "v4b: дообучение с числом деревьев последнего временного фолда, без LLM.",
+  "tasks": {
+    "wids_seen": {
+      "metric": "rmse",
+      "value": 35.04875,
+      "score": 22.21,
+      "seconds": 124.3
+    },
+    "wids_future": {
+      "metric": "rmse",
+      "value": 42.18169,
+      "score": 14.51,
+      "seconds": 157.1
+    }
+  }
+}

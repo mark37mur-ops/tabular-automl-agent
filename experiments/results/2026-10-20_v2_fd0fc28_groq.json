@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-20_v2_fd0fc28_groq",
+  "datetime": "2026-10-20T19:05",
+  "date": "2026-10-20",
+  "approach": "v2",
+  "branch": "feature/agent-v2",
+  "commit": "fd0fc28",
+  "llm": "qwen/qwen3.8-27b (Groq)",
+  "time_limit_sec": 1800,
+  "notes": "Qwen после правок промпта; MAX_TOKENS=900, IDEAS=3, MAX_CALLS=16. Из 12 идей LLM принято 4.",
+  "tasks": {
+    "amazon_access": {
+      "metric": "roc_auc",
+      "value": 0.88877,
+      "score": 76.79,
+      "seconds": 941.1
+    }
+  }
+}

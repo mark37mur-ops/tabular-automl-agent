@@ -1,0 +1,45 @@
+{
+  "id": "2026-10-21_v4_31ecfcb_rules_20m_scr1_dev1_cmp1_his1_lsh1_1728",
+  "datetime": "2026-10-21T17:28",
+  "date": "2026-10-21",
+  "approach": "v4",
+  "branch": "feature/agent-v4",
+  "commit": "31ecfcb",
+  "llm": null,
+  "time_limit_sec": 1200.0,
+  "toggles": {
+    "AGENT_SCREEN": 1,
+    "AGENT_DEVELOPER": 1,
+    "AGENT_COMPONENTS": 1,
+    "AGENT_HISTORY": 1,
+    "AGENT_LABEL_SHIFT": 1
+  },
+  "settings": {},
+  "notes": "v4: Иван + гибрид + история объекта + поправка на сдвиг классов, без LLM. amazon_access убран: прогон попал на сон ноутбука (87 мин вместо 20), повтор — отдельная запись.",
+  "tasks": {
+    "bike_sharing": {
+      "metric": "rmsle",
+      "value": 0.27864,
+      "score": 78.58,
+      "seconds": 325.4
+    },
+    "home_credit": {
+      "metric": "roc_auc",
+      "value": 0.74618,
+      "score": 6.06,
+      "seconds": 866.5
+    },
+    "wids_future": {
+      "metric": "rmse",
+      "value": 43.36223,
+      "score": 12.12,
+      "seconds": 128.3
+    },
+    "unsw_shift": {
+      "metric": "macro_f1",
+      "value": 0.61323,
+      "score": 35.53,
+      "seconds": 839.5
+    }
+  }
+}

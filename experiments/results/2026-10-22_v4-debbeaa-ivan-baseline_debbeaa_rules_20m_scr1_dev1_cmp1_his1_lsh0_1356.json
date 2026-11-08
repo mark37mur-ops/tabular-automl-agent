@@ -1,0 +1,64 @@
+{
+  "id": "2026-10-22_v4-debbeaa-ivan-baseline_debbeaa_rules_20m_scr1_dev1_cmp1_his1_lsh0_1356",
+  "datetime": "2026-10-22T13:56",
+  "date": "2026-10-22",
+  "approach": "v4-debbeaa-ivan-baseline",
+  "branch": "HEAD",
+  "commit": "debbeaa",
+  "llm": null,
+  "time_limit_sec": 1200.0,
+  "toggles": {
+    "AGENT_SCREEN": 1,
+    "AGENT_DEVELOPER": 1,
+    "AGENT_COMPONENTS": 1,
+    "AGENT_HISTORY": 1,
+    "AGENT_LABEL_SHIFT": 0
+  },
+  "settings": {
+    "AGENT_N_JOBS": "8",
+    "AGENT_SCREEN": "1",
+    "AGENT_DEVELOPER": "1",
+    "AGENT_COMPONENTS": "1",
+    "AGENT_HISTORY": "1",
+    "AGENT_LABEL_SHIFT": "0"
+  },
+  "notes": "Ivan holdout audit; no LLM; exact same six inputs and 1200 sec; sequential 8-thread comparison",
+  "tasks": {
+    "amazon_access": {
+      "metric": "roc_auc",
+      "value": 0.88276,
+      "score": 75.54,
+      "seconds": 580.6
+    },
+    "bike_sharing": {
+      "metric": "rmsle",
+      "value": 0.27875,
+      "score": 78.58,
+      "seconds": 656.7
+    },
+    "home_credit": {
+      "metric": "roc_auc",
+      "value": 0.74621,
+      "score": 6.07,
+      "seconds": 587.7
+    },
+    "wids_seen": {
+      "metric": "rmse",
+      "value": 30.86939,
+      "score": 31.48,
+      "seconds": 159.9
+    },
+    "wids_future": {
+      "metric": "rmse",
+      "value": 41.15098,
+      "score": 16.6,
+      "seconds": 153.2
+    },
+    "unsw_shift": {
+      "metric": "macro_f1",
+      "value": 0.61305,
+      "score": 35.44,
+      "seconds": 835.7
+    }
+  }
+}

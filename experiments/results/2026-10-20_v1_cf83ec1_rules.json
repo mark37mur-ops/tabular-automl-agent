@@ -1,0 +1,31 @@
+{
+  "id": "2026-10-20_v1_cf83ec1_rules",
+  "datetime": "2026-10-20T16:32",
+  "date": "2026-10-20",
+  "approach": "v1",
+  "branch": "feature/e2e-baseline",
+  "commit": "cf83ec1",
+  "llm": null,
+  "time_limit_sec": 1800,
+  "notes": "Один LightGBM, 5 фолдов, правила разбора условия.",
+  "tasks": {
+    "amazon_access": {
+      "metric": "roc_auc",
+      "value": 0.84538,
+      "score": 67.74,
+      "seconds": 9.1
+    },
+    "bike_sharing": {
+      "metric": "rmsle",
+      "value": 0.28134,
+      "score": 78.38,
+      "seconds": 11.6
+    },
+    "home_credit": {
+      "metric": "roc_auc",
+      "value": 0.74363,
+      "score": 5.12,
+      "seconds": 36.4
+    }
+  }
+}

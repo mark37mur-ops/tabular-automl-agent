@@ -1,0 +1,36 @@
+{
+  "id": "2026-10-22_v6-shift-weights_de20d62_rules_10m_scr1_dev1_cmp1_his1_lsh0_adv0_1753",
+  "datetime": "2026-10-22T17:53",
+  "date": "2026-10-22",
+  "approach": "v6-shift-weights",
+  "branch": "feature/agent-v4",
+  "commit": "de20d62",
+  "llm": null,
+  "time_limit_sec": 600.0,
+  "toggles": {
+    "AGENT_SCREEN": 1,
+    "AGENT_DEVELOPER": 1,
+    "AGENT_COMPONENTS": 1,
+    "AGENT_HISTORY": 1,
+    "AGENT_LABEL_SHIFT": 0,
+    "AGENT_ADV_WEIGHTS": 0
+  },
+  "settings": {
+    "AGENT_ADV_WEIGHTS": "0"
+  },
+  "notes": "v4 + чистый holdout + веса сдвига, AGENT_ADV_WEIGHTS=0, 10 мин.",
+  "tasks": {
+    "unsw_covshift": {
+      "metric": "macro_f1",
+      "value": 0.65761,
+      "score": 40.35,
+      "seconds": 427.6
+    },
+    "unsw_shift": {
+      "metric": "macro_f1",
+      "value": 0.60904,
+      "score": 34.84,
+      "seconds": 449.5
+    }
+  }
+}

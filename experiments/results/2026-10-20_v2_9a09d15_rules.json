@@ -1,0 +1,31 @@
+{
+  "id": "2026-10-20_v2_9a09d15_rules",
+  "datetime": "2026-10-20T17:16",
+  "date": "2026-10-20",
+  "approach": "v2",
+  "branch": "feature/agent-v2",
+  "commit": "9a09d15",
+  "llm": null,
+  "time_limit_sec": 1800,
+  "notes": "Первая v2: исследование на правилах, LGBM+CatBoost+XGBoost, бленд, контроль 15%.",
+  "tasks": {
+    "bike_sharing": {
+      "metric": "rmsle",
+      "value": 0.27877,
+      "score": 78.57,
+      "seconds": 133.3
+    },
+    "home_credit": {
+      "metric": "roc_auc",
+      "value": 0.74652,
+      "score": 6.19,
+      "seconds": 922.0
+    },
+    "amazon_access": {
+      "metric": "roc_auc",
+      "value": 0.88702,
+      "score": 76.43,
+      "seconds": 287.5
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.DS_Store
+.uv-cache/
+agent/dist/
+
+# Данные полигона: скачанные датасеты и собранные задачи
+polygon/raw/
+polygon/tasks/
+
+# Архивы для платформы
+*.zip

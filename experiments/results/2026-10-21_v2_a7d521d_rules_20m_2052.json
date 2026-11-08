@@ -1,0 +1,37 @@
+{
+  "id": "2026-10-21_v2_a7d521d_rules_20m_2052",
+  "datetime": "2026-10-21T20:52",
+  "date": "2026-10-21",
+  "approach": "v2",
+  "branch": "feature/agent-v2",
+  "commit": "a7d521d",
+  "llm": null,
+  "time_limit_sec": 1200.0,
+  "settings": {},
+  "machine": {
+    "cpu": 4,
+    "os": "Windows"
+  },
+  "polygon": "d9ce10a",
+  "notes": "v2 без LLM на новых задачах полигона (forest_cover, news_shares) + контроль bike_sharing. Машина 4 CPU (у платформы 8): на forest_cover не хватило времени на исследование, CatBoost успел 1 фолд, XGBoost и переобучение пропущены.",
+  "tasks": {
+    "bike_sharing": {
+      "metric": "rmsle",
+      "value": 0.27907,
+      "score": 78.55,
+      "seconds": 505.3
+    },
+    "forest_cover": {
+      "metric": "macro_f1",
+      "value": 0.88343,
+      "score": 75.55,
+      "seconds": 902.1
+    },
+    "news_shares": {
+      "metric": "mae",
+      "value": 2352.13186,
+      "score": 23.76,
+      "seconds": 988.7
+    }
+  }
+}

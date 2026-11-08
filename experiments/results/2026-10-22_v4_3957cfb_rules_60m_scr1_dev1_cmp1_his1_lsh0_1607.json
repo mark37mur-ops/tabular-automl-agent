@@ -1,0 +1,33 @@
+{
+  "id": "2026-10-22_v4_3957cfb_rules_60m_scr1_dev1_cmp1_his1_lsh0_1607",
+  "datetime": "2026-10-22T16:07",
+  "date": "2026-10-22",
+  "approach": "v4",
+  "branch": "feature/agent-v4",
+  "commit": "3957cfb",
+  "llm": null,
+  "time_limit_sec": 3600.0,
+  "toggles": {
+    "AGENT_SCREEN": 1,
+    "AGENT_DEVELOPER": 1,
+    "AGENT_COMPONENTS": 1,
+    "AGENT_HISTORY": 1,
+    "AGENT_LABEL_SHIFT": 0
+  },
+  "settings": {},
+  "notes": "v4 (3957cfb) без LLM, 60 мин.",
+  "tasks": {
+    "wids_seen": {
+      "metric": "rmse",
+      "value": 31.61401,
+      "score": 29.83,
+      "seconds": 84.9
+    },
+    "unsw_shift": {
+      "metric": "macro_f1",
+      "value": 0.60641,
+      "score": 34.4,
+      "seconds": 2411.0
+    }
+  }
+}

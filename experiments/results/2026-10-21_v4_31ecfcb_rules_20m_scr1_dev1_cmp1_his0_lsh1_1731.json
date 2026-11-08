@@ -1,0 +1,29 @@
+{
+  "id": "2026-10-21_v4_31ecfcb_rules_20m_scr1_dev1_cmp1_his0_lsh1_1731",
+  "datetime": "2026-10-21T17:31",
+  "date": "2026-10-21",
+  "approach": "v4",
+  "branch": "feature/agent-v4",
+  "commit": "31ecfcb",
+  "llm": null,
+  "time_limit_sec": 1200.0,
+  "toggles": {
+    "AGENT_SCREEN": 1,
+    "AGENT_DEVELOPER": 1,
+    "AGENT_COMPONENTS": 1,
+    "AGENT_HISTORY": 0,
+    "AGENT_LABEL_SHIFT": 1
+  },
+  "settings": {
+    "AGENT_HISTORY": "0"
+  },
+  "notes": "v4 без истории объекта (абляция).",
+  "tasks": {
+    "wids_future": {
+      "metric": "rmse",
+      "value": 43.66982,
+      "score": 11.49,
+      "seconds": 182.8
+    }
+  }
+}

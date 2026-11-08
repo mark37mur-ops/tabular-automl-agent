@@ -1,0 +1,38 @@
+{
+  "id": "2026-10-21_v3-rd_614778f_llm_20m_scr1_dev1_cmp1_0525",
+  "datetime": "2026-10-21T05:25",
+  "date": "2026-10-21",
+  "approach": "v3-rd",
+  "branch": "feature/agent-v3-rd",
+  "commit": "614778f",
+  "llm": "qwen/qwen3.8-27b (Groq)",
+  "time_limit_sec": 1200.0,
+  "toggles": {
+    "AGENT_SCREEN": 1,
+    "AGENT_DEVELOPER": 1,
+    "AGENT_COMPONENTS": 1
+  },
+  "settings": {
+    "AGENT_LLM_MAX_CALLS": "14",
+    "AGENT_LLM_RETRIES": "4",
+    "AGENT_LLM_MIN_INTERVAL_SEC": "20",
+    "AGENT_LLM_SUMMARY_COLS": "60",
+    "AGENT_LLM_MAX_TOKENS": "900",
+    "AGENT_LLM_IDEAS": "3"
+  },
+  "notes": "v3-rd с Qwen через Groq: отбор на выборке + разработчик + выбор компонента.",
+  "tasks": {
+    "amazon_access": {
+      "metric": "roc_auc",
+      "value": 0.88701,
+      "score": 76.43,
+      "seconds": 902.6
+    },
+    "home_credit": {
+      "metric": "roc_auc",
+      "value": 0.75209,
+      "score": 8.25,
+      "seconds": 946.4
+    }
+  }
+}

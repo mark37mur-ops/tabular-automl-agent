@@ -1,0 +1,64 @@
+{
+  "id": "2026-10-22_v4-ivan-holdout-clean_5f900ca_rules_20m_scr1_dev1_cmp1_his1_lsh0_1446",
+  "datetime": "2026-10-22T14:46",
+  "date": "2026-10-22",
+  "approach": "v4-ivan-holdout-clean",
+  "branch": "feature/ivan-holdout-clean",
+  "commit": "5f900ca",
+  "llm": null,
+  "time_limit_sec": 1200.0,
+  "toggles": {
+    "AGENT_SCREEN": 1,
+    "AGENT_DEVELOPER": 1,
+    "AGENT_COMPONENTS": 1,
+    "AGENT_HISTORY": 1,
+    "AGENT_LABEL_SHIFT": 0
+  },
+  "settings": {
+    "AGENT_N_JOBS": "8",
+    "AGENT_SCREEN": "1",
+    "AGENT_DEVELOPER": "1",
+    "AGENT_COMPONENTS": "1",
+    "AGENT_HISTORY": "1",
+    "AGENT_LABEL_SHIFT": "0"
+  },
+  "notes": "Ivan holdout audit; no LLM; exact same six inputs and 1200 sec; sequential 8-thread comparison",
+  "tasks": {
+    "amazon_access": {
+      "metric": "roc_auc",
+      "value": 0.88473,
+      "score": 75.95,
+      "seconds": 574.4
+    },
+    "bike_sharing": {
+      "metric": "rmsle",
+      "value": 0.27757,
+      "score": 78.67,
+      "seconds": 686.2
+    },
+    "home_credit": {
+      "metric": "roc_auc",
+      "value": 0.74613,
+      "score": 6.04,
+      "seconds": 574.2
+    },
+    "wids_seen": {
+      "metric": "rmse",
+      "value": 30.86939,
+      "score": 31.48,
+      "seconds": 172.1
+    },
+    "wids_future": {
+      "metric": "rmse",
+      "value": 41.15098,
+      "score": 16.6,
+      "seconds": 175.5
+    },
+    "unsw_shift": {
+      "metric": "macro_f1",
+      "value": 0.61305,
+      "score": 35.44,
+      "seconds": 805.8
+    }
+  }
+}

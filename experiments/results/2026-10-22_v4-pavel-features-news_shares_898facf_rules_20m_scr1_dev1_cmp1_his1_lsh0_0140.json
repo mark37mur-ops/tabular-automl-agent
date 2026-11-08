@@ -1,0 +1,33 @@
+{
+  "id": "2026-10-22_v4-pavel-features-news_shares_898facf_rules_20m_scr1_dev1_cmp1_his1_lsh0_0140",
+  "datetime": "2026-10-22T01:40",
+  "date": "2026-10-22",
+  "approach": "v4-pavel-features-news_shares",
+  "branch": "feature/pavel-feature-types",
+  "commit": "898facf",
+  "llm": null,
+  "time_limit_sec": 1200.0,
+  "toggles": {
+    "AGENT_SCREEN": 1,
+    "AGENT_DEVELOPER": 1,
+    "AGENT_COMPONENTS": 1,
+    "AGENT_HISTORY": 1,
+    "AGENT_LABEL_SHIFT": 0
+  },
+  "settings": {
+    "AGENT_HISTORY": "1",
+    "AGENT_LABEL_SHIFT": "0",
+    "AGENT_SCREEN": "1",
+    "AGENT_DEVELOPER": "1",
+    "AGENT_COMPONENTS": "1"
+  },
+  "notes": "Paired night-pavel benchmark; 1200s; LLM off; fixed 8 CPU affinity; same task data.",
+  "tasks": {
+    "news_shares": {
+      "metric": "mae",
+      "value": 2353.37563,
+      "score": 23.72,
+      "seconds": 266.3
+    }
+  }
+}

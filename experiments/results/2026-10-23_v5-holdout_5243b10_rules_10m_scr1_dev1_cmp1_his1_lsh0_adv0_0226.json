@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-23_v5-holdout_5243b10_rules_10m_scr1_dev1_cmp1_his1_lsh0_adv0_0226",
+  "datetime": "2026-10-23T02:26",
+  "date": "2026-10-23",
+  "approach": "v5-holdout",
+  "branch": "feature/agent-v4",
+  "commit": "5243b10",
+  "llm": null,
+  "time_limit_sec": 600.0,
+  "toggles": {
+    "AGENT_SCREEN": 1,
+    "AGENT_DEVELOPER": 1,
+    "AGENT_COMPONENTS": 1,
+    "AGENT_HISTORY": 1,
+    "AGENT_LABEL_SHIFT": 0,
+    "AGENT_ADV_WEIGHTS": 0
+  },
+  "settings": {
+    "AGENT_ADV_WEIGHTS": "0"
+  },
+  "notes": "без бэггинга сидов, веса сдвига выключены",
+  "tasks": {
+    "wids_seen": {
+      "metric": "rmse",
+      "value": 31.69889,
+      "score": 29.64,
+      "seconds": 94.9
+    },
+    "wids_future": {
+      "metric": "rmse",
+      "value": 41.00374,
+      "score": 16.9,
+      "seconds": 95.8
+    },
+    "unsw_shift": {
+      "metric": "macro_f1",
+      "value": 0.61305,
+      "score": 35.5,
+      "seconds": 442.5
+    }
+  }
+}

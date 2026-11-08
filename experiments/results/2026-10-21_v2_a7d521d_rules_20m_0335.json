@@ -1,0 +1,32 @@
+{
+  "id": "2026-10-21_v2_a7d521d_rules_20m_0335",
+  "datetime": "2026-10-21T03:35",
+  "date": "2026-10-21",
+  "approach": "v2",
+  "branch": "feature/agent-v2",
+  "commit": "a7d521d",
+  "llm": null,
+  "time_limit_sec": 1200.0,
+  "settings": {},
+  "notes": "v2 без LLM, эталон для сравнения с v3-rd.",
+  "tasks": {
+    "amazon_access": {
+      "metric": "roc_auc",
+      "value": 0.88701,
+      "score": 76.43,
+      "seconds": 671.3
+    },
+    "bike_sharing": {
+      "metric": "rmsle",
+      "value": 0.27907,
+      "score": 78.55,
+      "seconds": 399.6
+    },
+    "home_credit": {
+      "metric": "roc_auc",
+      "value": 0.7471,
+      "score": 6.4,
+      "seconds": 900.0
+    }
+  }
+}

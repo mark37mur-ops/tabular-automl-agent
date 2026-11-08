@@ -1,0 +1,33 @@
+{
+  "id": "2026-10-22_v4-debbeaa-amazon_access_debbeaa_rules_20m_scr1_dev1_cmp1_his1_lsh0_1237",
+  "datetime": "2026-10-22T12:37",
+  "date": "2026-10-22",
+  "approach": "v4-debbeaa-amazon_access",
+  "branch": "HEAD",
+  "commit": "debbeaa",
+  "llm": null,
+  "time_limit_sec": 1200.0,
+  "toggles": {
+    "AGENT_SCREEN": 1,
+    "AGENT_DEVELOPER": 1,
+    "AGENT_COMPONENTS": 1,
+    "AGENT_HISTORY": 1,
+    "AGENT_LABEL_SHIFT": 0
+  },
+  "settings": {
+    "AGENT_HISTORY": "1",
+    "AGENT_LABEL_SHIFT": "0",
+    "AGENT_SCREEN": "1",
+    "AGENT_DEVELOPER": "1",
+    "AGENT_COMPONENTS": "1"
+  },
+  "notes": "Paired night-pavel benchmark; 1200s; LLM off; fixed 8 CPU affinity; same task data.",
+  "tasks": {
+    "amazon_access": {
+      "metric": "roc_auc",
+      "value": 0.88293,
+      "score": 75.57,
+      "seconds": 304.9
+    }
+  }
+}

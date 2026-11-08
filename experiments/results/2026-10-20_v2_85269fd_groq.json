@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-20_v2_85269fd_groq",
+  "datetime": "2026-10-20T18:49",
+  "date": "2026-10-20",
+  "approach": "v2",
+  "branch": "feature/agent-v2",
+  "commit": "85269fd",
+  "llm": "qwen/qwen3.8-27b (Groq)",
+  "time_limit_sec": 1800,
+  "notes": "Первый прогон с Qwen: упёрлись в лимит Groq 1000 выходных токенов/мин, LLM отключился.",
+  "tasks": {
+    "amazon_access": {
+      "metric": "roc_auc",
+      "value": 0.88734,
+      "score": 76.49,
+      "seconds": 1004.1
+    }
+  }
+}

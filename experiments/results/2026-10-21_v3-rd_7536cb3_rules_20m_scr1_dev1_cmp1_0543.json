@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-21_v3-rd_7536cb3_rules_20m_scr1_dev1_cmp1_0543",
+  "datetime": "2026-10-21T05:43",
+  "date": "2026-10-21",
+  "approach": "v3-rd",
+  "branch": "feature/agent-v3-rd",
+  "commit": "7536cb3",
+  "llm": null,
+  "time_limit_sec": 1200.0,
+  "toggles": {
+    "AGENT_SCREEN": 1,
+    "AGENT_DEVELOPER": 1,
+    "AGENT_COMPONENTS": 1
+  },
+  "settings": {},
+  "notes": "v3-rd после правки отбора (только дорогие эксперименты), без LLM.",
+  "tasks": {
+    "amazon_access": {
+      "metric": "roc_auc",
+      "value": 0.88701,
+      "score": 76.43,
+      "seconds": 593.9
+    }
+  }
+}

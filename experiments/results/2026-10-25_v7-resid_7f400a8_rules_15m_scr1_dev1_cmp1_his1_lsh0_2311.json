@@ -1,0 +1,33 @@
+{
+  "id": "2026-10-25_v7-resid_7f400a8_rules_15m_scr1_dev1_cmp1_his1_lsh0_2311",
+  "datetime": "2026-10-25T23:11",
+  "date": "2026-10-25",
+  "approach": "v7-resid",
+  "branch": "feature/agent-v7-resid",
+  "commit": "7f400a8",
+  "llm": null,
+  "time_limit_sec": 900.0,
+  "toggles": {
+    "AGENT_SCREEN": 1,
+    "AGENT_DEVELOPER": 1,
+    "AGENT_COMPONENTS": 1,
+    "AGENT_HISTORY": 1,
+    "AGENT_LABEL_SHIFT": 0
+  },
+  "settings": {},
+  "notes": "v7: модели на разнице с прошлым значением объекта (24.68 на платформе)",
+  "tasks": {
+    "wids_seen": {
+      "metric": "rmse",
+      "value": 30.98284,
+      "score": 31.23,
+      "seconds": 93.7
+    },
+    "wids_future": {
+      "metric": "rmse",
+      "value": 40.4372,
+      "score": 18.05,
+      "seconds": 96.7
+    }
+  }
+}
